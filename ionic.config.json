@@ -1,0 +1,7 @@
+{
+  "name": "estagio",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
