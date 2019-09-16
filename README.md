@@ -9,13 +9,17 @@ $ ionic serve
 
 # Para rodar o app no IOS
 Informações em: https://beta.ionicframework.com/docs/building/ios
+
 $ ionic cordova platform add ios
+
 $ ionic cordova build ios
 
 
 # Para rodar o app no ANDROID
 Informações em: https://beta.ionicframework.com/docs/building/android
+
 $ ionic cordova platform add android
+
 $ ionic cordova build android
 
 No terminal será exibido o diretório onde o APK foi gerado.
