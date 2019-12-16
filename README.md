@@ -4,10 +4,17 @@
 # Instalação desse aplicativo (Instalando as dependências)
 $ npm install
 
-# Para rodar o servidor no browser
+# Inserindo as credenciais do Firebase para usar o banco de dados
+> Acesse https://firebase.google.com/
+> Criar banco de dados
+> Adicionar projeto
+Copie suas credênciais e cole no arquivo que se encontra em:
+src/environments/environment.ts
+
+# Rodando o servidor no browser
 $ ionic serve
 
-# Para rodar o app no IOS
+# Gerando APK para IOS
 Informações em: https://beta.ionicframework.com/docs/building/ios
 
 $ ionic cordova platform add ios
@@ -15,7 +22,7 @@ $ ionic cordova platform add ios
 $ ionic cordova build ios
 
 
-# Para rodar o app no ANDROID
+# Gerando APK para Android
 Informações em: https://beta.ionicframework.com/docs/building/android
 
 $ ionic cordova platform add android
@@ -23,3 +30,5 @@ $ ionic cordova platform add android
 $ ionic cordova build android
 
 No terminal será exibido o diretório onde o APK foi gerado.
+
+
