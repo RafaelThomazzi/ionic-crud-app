@@ -6,10 +6,15 @@ $ npm install
 
 # Inserindo as credenciais do Firebase para usar o banco de dados
 > Acesse https://firebase.google.com/
+
 > Criar banco de dados
+
 > Adicionar projeto
+
 Copie suas credênciais e cole no arquivo que se encontra em:
+
 src/environments/environment.ts
+
 
 # Rodando o servidor no browser
 $ ionic serve
