@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase:{
-    apiKey: "AIzaSyABPfSOW6etLkNBfcdlwHZDVRRk9hLxENI",
-    authDomain: "ionicapp-1663c.firebaseapp.com",
-    databaseURL: "https://ionicapp-1663c.firebaseio.com",
-    projectId: "ionicapp-1663c",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
     storageBucket: "",
-    messagingSenderId: "853884065011",
-    appId: "1:853884065011:web:95d62857f14f8926"
+    messagingSenderId: "",
+    appId: ""
   }
 };
 
